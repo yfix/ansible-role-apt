@@ -1,7 +1,8 @@
 # file: apt/defaults/main.yml
 
 apt_reset_source_list: no                 # reset the /etc/apt/sources.list to the default
-apt_mirror_url: http://archive.ubuntu.com # the mirror from where to install packages
+apt_ubuntu_release: trusty                # name of the ubuntu release inside urls
+apt_mirror_url: http://ua.archive.ubuntu.com # the mirror from where to install packages
 apt_cache_valid_time: 3600                # Time (in seconds) the apt cache stays valid
 apt_install_recommends: no                # whether or not to install the "recommended" packages
 apt_install_suggests: no                  # whether or not to install the "suggested" packages
